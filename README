@@ -1,9 +1,18 @@
-Stata do-file for standardising country names
+# Stata do-file for standardising country names
 
-Created by Christopher Gandrud
+### Created by Christopher Gandrud
 
-Updated 18 February 2012
+### Updated 11 March 2013
 
+---
+
+## No Longer Maintained
+
+I no longer make updates to this repository. Please feel free to fork the repository and keep maintaining it. 
+
+If you are using R and want to have similar capabilities, I highly recommend using the [countrycode](http://cran.r-project.org/web/packages/countrycode/index.html) package.
+
+---
 Summary: If you regularly put together data sets for cross-country analysis, you'll probably know that it's a real pain to standardise country names so that you can merge together files from different sources.
 
 For example, you want to merge two data sets: A and B. In data set A the country Bosnia and Herzegovina is referred to as "Bosnia-Hertz" and in B it is called "Bosnia-Herzegovina". To merge them into one file that you can use for data analysis you have to find this discrepancy and then change at least one of the names so that they both are the same. This is really tedious to do across multiple data sets with tens or hundreds of countries.
