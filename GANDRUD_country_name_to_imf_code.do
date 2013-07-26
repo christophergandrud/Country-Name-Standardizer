@@ -1,7 +1,7 @@
 *******************************
 * Standardises Country Names and Matches them with their IMF Country Code
 * Created by Christopher Gandrud 
-* Updated 29 March 2012
+* Updated 26 July 2013
 *******************************       
 
 
@@ -158,6 +158,7 @@ replace country = "Congo, Dem. Rep." if country == "congo__dem_"
 replace country = "Congo, Dem. Rep." if country == "zairecongokinshasa"
 replace country = "Congo, Dem. Rep." if country == "Congo Kinshasa"
 replace country = "Congo, Dem. Rep." if country == "Congo, Kinshasa"
+replace country = "Congo, Dem. Rep." if country == "Congo, Democratic Republic of (Kinshasa)"
 replace country = "Congo, Dem. Rep." if country == "Congo, Dem. Rep."
 replace country = "Congo, Dem. Rep." if country == " Congo, Dem. Rep. "
 replace country = "Congo, Dem. Rep." if country == "Congo, DR"
@@ -167,6 +168,7 @@ replace country = "Congo, Dem. Rep." if country == "Congo, Democratic Republic o
 replace country = "Congo, Dem. Rep." if country == "Congo, Dem. Rep. (Zaire)"
 replace country = "Congo, Dem. Rep." if country == "Congo, Democratic Republic of"
 replace country = "Congo, Dem. Rep." if country == "Zaire (Democ Republic Congo)"
+replace country = "Congo, Dem. Rep." if country == "Congo (DRC)"
 replace country = "Congo, Dem. Rep." if country == "Congo, Dem. Rep. "
 replace imfcode = 636 if country == "Congo, Dem. Rep."
 replace country = "Congo, Rep." if country == "congo__rep_"
@@ -201,6 +203,7 @@ replace country = "Cote dIvoire" if country == "Cote D?Ivoire"
 replace country = "Cote dIvoire" if country == "C™te d?Ivoire"
 replace country = "Cote dIvoire" if country == "C?te d'Ivoire"
 replace country = "Cote dIvoire" if country == "ctedivoire"
+replace country = "Cote dIvoire" if country =="Côte d'Ivoire"
 replace imfcode = 662 if country =="Cote dIvoire"
 replace country = "Croatia" if country == "croatia"
 replace country = "Croatia" if country == "HR"
