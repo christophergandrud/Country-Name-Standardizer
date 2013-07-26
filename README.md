@@ -10,7 +10,7 @@
 
 I no longer make updates to this repository. Please feel free to fork the repository and keep maintaining it. 
 
-If you are using R and want to have similar capabilities, I highly recommend using the [countrycode](http://cran.r-project.org/web/packages/countrycode/index.html) package. @briatte also recommends the Stata package [kountry](http://ideas.repec.org/c/boc/bocode/s453301.html).
+If you are using R and want to have similar capabilities, I highly recommend using the [countrycode](http://cran.r-project.org/web/packages/countrycode/index.html) package. [@briatte](https://github.com/briatte) also recommends the Stata package [kountry](http://ideas.repec.org/c/boc/bocode/s453301.html).
 
 ---
 
